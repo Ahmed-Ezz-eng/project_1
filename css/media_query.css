@@ -1,0 +1,122 @@
+
+
+
+@media(max-width:540px){
+    /* header  */
+    header a.logo{
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+    
+    header .headerIcons div{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .aboutDesc::before{
+       display: none;
+    }
+    
+    .aboutDesc::after{
+        display: none;
+    }
+
+}
+
+@media(max-width:560px) {
+    .homeText h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:500px){
+
+    body{
+        padding-left: 100px;
+    }
+
+    /* navbar  */
+    nav{
+        max-width: 100px;
+        background-color: var(--bg2);
+    }
+
+    nav span{
+        display: none;
+    }
+
+    nav ul li{
+        text-align: center;
+    }
+
+    nav ul li i{
+        font-size: 20px;
+    }
+}
+
+/* header & nav  */
+
+@media(max-width:400px){
+    header{
+        padding: 15px 20px;
+    }
+    header a.logo{
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: .8px;
+    }
+    
+    header .headerIcons div{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-left: 2px;
+        font-size: 16px;
+    }
+
+    body{
+        padding-left: 75px;
+    }
+
+    nav{
+        max-width:75px;
+    }
+
+    nav ul li{
+        padding: 10px 0px;
+    }
+
+    nav ul li i{
+        margin-right: 0px;
+    }
+
+    .homeText h1{
+        font-size: 28px;
+    }
+
+    .button{
+        padding: 8px 15px;   
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:991px){
+    .homeText{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .homeImage{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .line{
+        display: none;
+    }
+}
